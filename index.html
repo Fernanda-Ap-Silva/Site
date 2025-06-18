@@ -1,0 +1,108 @@
+<<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Desafio Projeto HTML - Índice</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: blue;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    button {
+      margin-top: 20px;
+      padding: 8px 15px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    hr {
+      margin: 20px 0;
+    }
+    footer small {
+      display: block;
+      margin-top: 40px;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Índice -->
+  <h1>Índice das Aulas</h1>
+  <ol>
+    <li><a href="#aula1">Aula 1 - Introdução ao HTML Semântico</a></li>
+    <li><a href="#aula2">Aula 2 - Tags Importantes e Estruturais</a></li>
+    <li><a href="#aula3">Aula 3 - Novas Tags e Exemplos</a></li>
+  </ol>
+
+  <hr />
+
+  <!-- Aula 1 -->
+  <section id="aula1">
+    <h2>Aula 1: Introdução ao <mark>HTML Semântico</mark></h2>
+    <p>HTML semântico é uma forma de escrever código onde usamos tags que <strong>descrevem o significado do conteúdo</strong> que está dentro delas.</p>
+    <p>Por exemplo, usamos a tag <code>&lt;header&gt;</code> para o cabeçalho da página, <code>&lt;nav&gt;</code> para a área de navegação e <code>&lt;main&gt;</code> para o conteúdo principal.</p>
+    <blockquote cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/section">
+      "O HTML semântico ajuda a melhorar a acessibilidade e SEO dos sites." – MDN Web Docs
+    </blockquote>
+    <button onclick="window.location.href='#top'">Voltar para o Índice</button>
+  </section>
+
+  <hr />
+
+  <!-- Aula 2 -->
+  <section id="aula2">
+    <h3>Aula 2: Tags Importantes e Estruturais</h3>
+    <p>Vamos conhecer algumas tags que você deve usar para estruturar seu site:</p>
+    <ul>
+      <li><strong>&lt;header&gt;</strong> — Cabeçalho</li>
+      <li><strong>&lt;footer&gt;</strong> — Rodapé</li>
+      <li><strong>&lt;article&gt;</strong> — Artigo ou conteúdo independente</li>
+      <li><strong>&lt;section&gt;</strong> — Seções de conteúdo</li>
+      <li><strong>&lt;aside&gt;</strong> — Conteúdo lateral, como anúncios ou notas</li>
+    </ul>
+    <p><small>Exemplo: O uso correto das tags ajuda pessoas que usam leitores de tela e também melhora o SEO.</small></p>
+    <button onclick="window.location.href='#top'">Voltar para o Índice</button>
+  </section>
+
+  <hr />
+
+  <!-- Aula 3 -->
+  <section id="aula3">
+    <h4>Aula 3: Novas Tags e Exemplos Práticos</h4>
+    <p>Algumas tags menos usadas, mas interessantes:</p>
+    <ul>
+      <li><abbr title="HyperText Markup Language">&lt;abbr&gt;</abbr> — Abreviação com explicação ao passar o mouse</li>
+      <li><del>Texto deletado</del> — Para mostrar que algo foi removido</li>
+      <li><font color="red">Texto colorido (obsoleta, mas ainda funciona em alguns navegadores)</font></li>
+    </ul>
+
+    <p>Exemplo de uso do <code>&lt;abbr&gt;</code>:</p>
+    <p>A sigla <abbr title="Cascading Style Sheets">CSS</abbr> é usada para estilizar páginas web.</p>
+
+    <button onclick="window.location.href='#top'">Voltar para o Índice</button>
+  </section>
+
+  <hr />
+
+  <!-- Referências -->
+  <footer>
+    <h5>Referências e Vídeos para Aprender HTML</h5>
+    <ul>
+      <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank" rel="noopener noreferrer">MDN Web Docs - HTML</a></li>
+      <li><a href="https://www.youtube.com/watch?v=UB1O30fR-EE" target="_blank" rel="noopener noreferrer">Curso de HTML para Iniciantes - Canal Curso em Vídeo</a></li>
+      <li><a href="https://www.w3schools.com/html/" target="_blank" rel="noopener noreferrer">W3Schools - HTML Tutorial</a></li>
+    </ul>
+    <small>Projeto de exemplo criado para desafio de HTML</small>
+  </footer>
+
+</body>
+</html>
